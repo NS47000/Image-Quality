@@ -1,70 +1,206 @@
 {
    "Details" : {
       "HoleNum" : {
-         "HoleNumConf" : 58,
+         "HoleNumConf" : 46,
          "HoleNumName" : "15"
       },
       "Name" : "C8C80",
       "ObjectList" : [
          {
-            "Area" : 322,
-            "BBox" : [ 915, 1543, 17, 26 ],
-            "ObjectConf" : 92,
+            "Area" : 4106,
+            "BBox" : [ 1333, 2594, 144, 107 ],
+            "ObjectConf" : 91,
             "ObjectName" : "Defect",
-            "Region" : 25,
+            "Region" : 42,
             "Segmentation" : null
          },
          {
-            "Area" : 755,
-            "BBox" : [ 1579, 1704, 23, 87 ],
+            "Area" : 15953,
+            "BBox" : [ 2078, 2574, 451, 183 ],
+            "ObjectConf" : 91,
+            "ObjectName" : "Defect",
+            "Region" : 44,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 11947,
+            "BBox" : [ 2639, 2570, 377, 134 ],
+            "ObjectConf" : 91,
+            "ObjectName" : "Defect",
+            "Region" : 45,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 11246,
+            "BBox" : [ 3128, 2580, 414, 143 ],
             "ObjectConf" : 89,
-            "ObjectName" : "Defect",
-            "Region" : 27,
-            "Segmentation" : null
-         },
-         {
-            "Area" : 651,
-            "BBox" : [ 1585, 1219, 22, 54 ],
-            "ObjectConf" : 87,
-            "ObjectName" : "Defect",
-            "Region" : 19,
-            "Segmentation" : null
-         },
-         {
-            "Area" : 410,
-            "BBox" : [ 721, 1032, 14, 37 ],
-            "ObjectConf" : 85,
-            "ObjectName" : "Defect",
-            "Region" : 17,
-            "Segmentation" : null
-         },
-         {
-            "Area" : 1302,
-            "BBox" : [ 157, 2461, 33, 51 ],
-            "ObjectConf" : 85,
-            "ObjectName" : "Defect",
-            "Region" : 32,
-            "Segmentation" : null
-         },
-         {
-            "Area" : 568,
-            "BBox" : [ 3097, 2581, 39, 17 ],
-            "ObjectConf" : 81,
             "ObjectName" : "Defect",
             "Region" : 46,
             "Segmentation" : null
          },
          {
-            "Area" : 1905,
-            "BBox" : [ 454, 1376, 44, 155 ],
-            "ObjectConf" : 77,
+            "Area" : 7820,
+            "BBox" : [ 607, 2575, 315, 79 ],
+            "ObjectConf" : 89,
             "ObjectName" : "Defect",
-            "Region" : 16,
+            "Region" : 41,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 6012,
+            "BBox" : [ 34, 2569, 245, 155 ],
+            "ObjectConf" : 89,
+            "ObjectName" : "Defect",
+            "Region" : 40,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 11262,
+            "BBox" : [ 3640, 2567, 399, 136 ],
+            "ObjectConf" : 92,
+            "ObjectName" : "Defect",
+            "Region" : 47,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 756,
+            "BBox" : [ 1584, 1213, 22, 68 ],
+            "ObjectConf" : 92,
+            "ObjectName" : "Defect",
+            "Region" : 19,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 3059,
+            "BBox" : [ 348, 2605, 124, 112 ],
+            "ObjectConf" : 87,
+            "ObjectName" : "Defect",
+            "Region" : 40,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 9656,
+            "BBox" : [ 1671, 2577, 312, 133 ],
+            "ObjectConf" : 88,
+            "ObjectName" : "Defect",
+            "Region" : 43,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 4269,
+            "BBox" : [ 3688, 2956, 193, 75 ],
+            "ObjectConf" : 89,
+            "ObjectName" : "Defect",
+            "Region" : 47,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 574,
+            "BBox" : [ 945, 1380, 27, 65 ],
+            "ObjectConf" : 87,
+            "ObjectName" : "Defect",
+            "Region" : 17,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1052,
+            "BBox" : [ 2226, 2854, 56, 32 ],
+            "ObjectConf" : 86,
+            "ObjectName" : "Defect",
+            "Region" : 44,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 960,
+            "BBox" : [ 1168, 2711, 35, 40 ],
+            "ObjectConf" : 86,
+            "ObjectName" : "Defect",
+            "Region" : 42,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 3695,
+            "BBox" : [ 3475, 2285, 63, 157 ],
+            "ObjectConf" : 89,
+            "ObjectName" : "Defect",
+            "Region" : 38,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 2248,
+            "BBox" : [ 914, 2336, 42, 102 ],
+            "ObjectConf" : 90,
+            "ObjectName" : "Defect",
+            "Region" : 33,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 2269,
+            "BBox" : [ 2443, 2330, 46, 101 ],
+            "ObjectConf" : 88,
+            "ObjectName" : "Defect",
+            "Region" : 36,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 387,
+            "BBox" : [ 2621, 1244, 19, 27 ],
+            "ObjectConf" : 88,
+            "ObjectName" : "Defect",
+            "Region" : 21,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1382,
+            "BBox" : [ 3400, 2793, 36, 51 ],
+            "ObjectConf" : 82,
+            "ObjectName" : "Defect",
+            "Region" : 46,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 920,
+            "BBox" : [ 1677, 2789, 34, 40 ],
+            "ObjectConf" : 82,
+            "ObjectName" : "Defect",
+            "Region" : 43,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 2337,
+            "BBox" : [ 405, 2332, 51, 111 ],
+            "ObjectConf" : 84,
+            "ObjectName" : "Defect",
+            "Region" : 32,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 4363,
+            "BBox" : [ 3768, 843, 120, 48 ],
+            "ObjectConf" : 83,
+            "ObjectName" : "Defect",
+            "Region" : 15,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 449,
+            "BBox" : [ 1339, 2827, 28, 23 ],
+            "ObjectConf" : 80,
+            "ObjectName" : "Defect",
+            "Region" : 42,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 610,
+            "BBox" : [ 3714, 1939, 64, 19 ],
+            "ObjectConf" : 78,
+            "ObjectName" : "Defect",
+            "Region" : 31,
             "Segmentation" : null
          }
       ],
-      "Time" : 975
+      "Time" : 2579
    },
    "OddOrEven" : 1,
-   "Result" : 1
+   "Result" : 2
 }
