@@ -1,0 +1,70 @@
+{
+   "Details" : {
+      "HoleNum" : {
+         "HoleNumConf" : 28,
+         "HoleNumName" : "15"
+      },
+      "Name" : "C8C80",
+      "ObjectList" : [
+         {
+            "Area" : 549,
+            "BBox" : [ 916, 1542, 16, 57 ],
+            "ObjectConf" : 90,
+            "ObjectName" : "Defect",
+            "Region" : 25,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 777,
+            "BBox" : [ 1578, 1706, 24, 86 ],
+            "ObjectConf" : 89,
+            "ObjectName" : "Defect",
+            "Region" : 27,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 597,
+            "BBox" : [ 1585, 1219, 20, 51 ],
+            "ObjectConf" : 87,
+            "ObjectName" : "Defect",
+            "Region" : 19,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 633,
+            "BBox" : [ 3097, 2580, 40, 19 ],
+            "ObjectConf" : 84,
+            "ObjectName" : "Defect",
+            "Region" : 46,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 633,
+            "BBox" : [ 535, 2579, 42, 19 ],
+            "ObjectConf" : 83,
+            "ObjectName" : "Defect",
+            "Region" : 41,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1279,
+            "BBox" : [ 156, 2458, 34, 53 ],
+            "ObjectConf" : 82,
+            "ObjectName" : "Defect",
+            "Region" : 32,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1050,
+            "BBox" : [ 457, 1377, 20, 77 ],
+            "ObjectConf" : 75,
+            "ObjectName" : "Defect",
+            "Region" : 16,
+            "Segmentation" : null
+         }
+      ],
+      "Time" : 953
+   },
+   "OddOrEven" : 1,
+   "Result" : 1
+}

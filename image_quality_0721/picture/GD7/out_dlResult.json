@@ -1,0 +1,78 @@
+{
+   "Details" : {
+      "HoleNum" : {
+         "HoleNumConf" : 45,
+         "HoleNumName" : "15"
+      },
+      "Name" : "C8C80",
+      "ObjectList" : [
+         {
+            "Area" : 182,
+            "BBox" : [ 916, 1576, 11, 23 ],
+            "ObjectConf" : 90,
+            "ObjectName" : "Defect",
+            "Region" : 25,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 315,
+            "BBox" : [ 916, 1542, 16, 27 ],
+            "ObjectConf" : 92,
+            "ObjectName" : "Defect",
+            "Region" : 25,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 726,
+            "BBox" : [ 1579, 1705, 22, 86 ],
+            "ObjectConf" : 88,
+            "ObjectName" : "Defect",
+            "Region" : 27,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 711,
+            "BBox" : [ 1584, 1216, 23, 59 ],
+            "ObjectConf" : 89,
+            "ObjectName" : "Defect",
+            "Region" : 19,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 703,
+            "BBox" : [ 441, 1109, 22, 51 ],
+            "ObjectConf" : 85,
+            "ObjectName" : "Defect",
+            "Region" : 16,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1277,
+            "BBox" : [ 157, 2460, 35, 51 ],
+            "ObjectConf" : 85,
+            "ObjectName" : "Defect",
+            "Region" : 32,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 597,
+            "BBox" : [ 2072, 2580, 39, 19 ],
+            "ObjectConf" : 81,
+            "ObjectName" : "Defect",
+            "Region" : 44,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1384,
+            "BBox" : [ 452, 1373, 26, 83 ],
+            "ObjectConf" : 78,
+            "ObjectName" : "Defect",
+            "Region" : 16,
+            "Segmentation" : null
+         }
+      ],
+      "Time" : 957
+   },
+   "OddOrEven" : 1,
+   "Result" : 1
+}

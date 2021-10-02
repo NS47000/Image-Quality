@@ -1,0 +1,46 @@
+{
+   "Details" : {
+      "HoleNum" : {
+         "HoleNumConf" : 65,
+         "HoleNumName" : "15"
+      },
+      "Name" : "C8C80",
+      "ObjectList" : [
+         {
+            "Area" : 330,
+            "BBox" : [ 912, 1541, 19, 24 ],
+            "ObjectConf" : 92,
+            "ObjectName" : "Defect",
+            "Region" : 25,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 854,
+            "BBox" : [ 1577, 1703, 26, 87 ],
+            "ObjectConf" : 89,
+            "ObjectName" : "Defect",
+            "Region" : 27,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 786,
+            "BBox" : [ 1584, 1215, 23, 64 ],
+            "ObjectConf" : 91,
+            "ObjectName" : "Defect",
+            "Region" : 19,
+            "Segmentation" : null
+         },
+         {
+            "Area" : 1434,
+            "BBox" : [ 157, 2457, 36, 50 ],
+            "ObjectConf" : 86,
+            "ObjectName" : "Defect",
+            "Region" : 32,
+            "Segmentation" : null
+         }
+      ],
+      "Time" : 963
+   },
+   "OddOrEven" : 1,
+   "Result" : 1
+}
