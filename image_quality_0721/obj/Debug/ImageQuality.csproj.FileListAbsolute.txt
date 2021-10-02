@@ -1,0 +1,230 @@
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\image_quality_0721.exe.config
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\image_quality_0721.exe
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\image_quality_0721.pdb
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Microsoft.Win32.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\netstandard.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.AppContext.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.Concurrent.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.NonGeneric.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.Specialized.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.EventBasedAsync.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.TypeConverter.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Console.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Data.Common.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Contracts.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Debug.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.FileVersionInfo.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Process.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.StackTrace.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.TextWriterTraceListener.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Tools.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.TraceSource.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Tracing.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Drawing.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Dynamic.Runtime.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Globalization.Calendars.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Globalization.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Globalization.Extensions.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.Compression.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.Compression.ZipFile.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.DriveInfo.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.Watcher.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.IsolatedStorage.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.MemoryMappedFiles.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.Pipes.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.UnmanagedMemoryStream.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.Expressions.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.Parallel.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.Queryable.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Http.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.NameResolution.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.NetworkInformation.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Ping.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Requests.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Security.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Sockets.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.WebHeaderCollection.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.WebSockets.Client.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.WebSockets.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ObjectModel.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Reflection.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Reflection.Extensions.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Reflection.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Resources.Reader.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Resources.ResourceManager.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Resources.Writer.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.CompilerServices.VisualC.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Extensions.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Handles.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.InteropServices.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Numerics.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Formatters.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Json.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Xml.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Claims.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Algorithms.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Csp.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Encoding.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Primitives.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.X509Certificates.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Principal.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.SecureString.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Text.Encoding.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Text.Encoding.Extensions.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Text.RegularExpressions.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Overlapped.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Tasks.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Tasks.Parallel.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Thread.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.ThreadPool.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Timer.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ValueTuple.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.ReaderWriter.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XDocument.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XmlDocument.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XmlSerializer.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XPath.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XPath.XDocument.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Bitmap.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetFramework.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetStandard.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Drawing.Common.dll
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Bitmap.xml
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetFramework.xml
+D:\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetStandard.xml
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csprojAssemblyReference.cache
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.exe.config
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.ImageQualityForm.resources
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.Properties.Resources.resources
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csproj.GenerateResource.cache
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csproj.CoreCompileInputs.cache
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csproj.CopyComplete
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.exe
+D:\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.pdb
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\image_quality_0721.exe.config
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\image_quality_0721.exe
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\image_quality_0721.pdb
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Microsoft.Win32.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\netstandard.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.AppContext.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.Concurrent.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.NonGeneric.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Collections.Specialized.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.EventBasedAsync.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ComponentModel.TypeConverter.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Console.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Data.Common.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Contracts.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Debug.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.FileVersionInfo.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Process.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.StackTrace.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.TextWriterTraceListener.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Tools.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.TraceSource.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Diagnostics.Tracing.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Drawing.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Dynamic.Runtime.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Globalization.Calendars.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Globalization.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Globalization.Extensions.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.Compression.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.Compression.ZipFile.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.DriveInfo.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.FileSystem.Watcher.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.IsolatedStorage.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.MemoryMappedFiles.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.Pipes.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.IO.UnmanagedMemoryStream.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.Expressions.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.Parallel.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Linq.Queryable.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Http.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.NameResolution.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.NetworkInformation.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Ping.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Requests.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Security.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.Sockets.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.WebHeaderCollection.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.WebSockets.Client.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Net.WebSockets.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ObjectModel.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Reflection.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Reflection.Extensions.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Reflection.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Resources.Reader.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Resources.ResourceManager.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Resources.Writer.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.CompilerServices.VisualC.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Extensions.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Handles.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.InteropServices.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Numerics.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Formatters.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Json.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Runtime.Serialization.Xml.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Claims.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Algorithms.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Csp.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Encoding.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.Primitives.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Cryptography.X509Certificates.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.Principal.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Security.SecureString.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Text.Encoding.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Text.Encoding.Extensions.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Text.RegularExpressions.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Overlapped.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Tasks.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Tasks.Parallel.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Thread.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.ThreadPool.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Threading.Timer.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.ValueTuple.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.ReaderWriter.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XDocument.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XmlDocument.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XmlSerializer.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XPath.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Xml.XPath.XDocument.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Bitmap.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetFramework.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetStandard.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\System.Drawing.Common.dll
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Bitmap.xml
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetFramework.xml
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\bin\Debug\dll\Emgu.CV.Platform.NetStandard.xml
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csprojAssemblyReference.cache
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.exe.config
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.ImageQualityForm.resources
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.Properties.Resources.resources
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csproj.GenerateResource.cache
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csproj.CoreCompileInputs.cache
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\ImageQuality.csproj.CopyComplete
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.exe
+D:\Google Drive\Getac.ImageQuality\image_quality_0721\obj\Debug\image_quality_0721.pdb
