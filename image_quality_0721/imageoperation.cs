@@ -139,6 +139,10 @@ namespace image_quality_0721
                         olddata.Close();
                     }
                 }
+                if(!Directory.Exists(@writepath))
+                {
+                    Directory.CreateDirectory(@writepath);
+                }
                 StreamWriter txtwrite = new StreamWriter(writepath + @"\goldentabledata.txt");//寫入txt
                 txtwrite.Write(oldintxt + write);
                 txtwrite.Close();

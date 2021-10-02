@@ -1,7 +1,11 @@
-﻿namespace image_quality_0721
+﻿using System.IO;
+
+namespace image_quality_0721
 {
     partial class ImageQualityForm
     {
+        internal string imagepath = "";
+        internal string datapath = "";
         /// <summary>
         /// 設計工具所需的變數。
         /// </summary>
@@ -187,7 +191,6 @@
             this.brightsetlabel.Size = new System.Drawing.Size(190, 24);
             this.brightsetlabel.TabIndex = 14;
             this.brightsetlabel.Text = "亮度閥值offset:";
-            this.brightsetlabel.Click += new System.EventHandler(this.brightsetlabel_Click);
             // 
             // label2
             // 
@@ -232,7 +235,7 @@
             this.groupBox1.Size = new System.Drawing.Size(493, 168);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "裩格表建立";
+            this.groupBox1.Text = "規格表建立";
             // 
             // comboBoxAVGorSD
             // 
