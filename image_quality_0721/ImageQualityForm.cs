@@ -18,6 +18,7 @@ namespace image_quality_0721
 {
     public partial class ImageQualityForm : Form
     {
+        public static ImageQualityForm form1;
         
         public ImageQualityForm()
         {
@@ -29,14 +30,13 @@ namespace image_quality_0721
             {
                 Directory.CreateDirectory(@datapath);
             }
+            form1 = this;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBoxAVGorSD.SelectedIndex = 0;
-            
         }
-
         private void loadbutton_Click(object sender, EventArgs e)//讀取圖片資訊，計算後將資料存入TXT中
         {
             Image<Gray, byte> [,,] imagedata;
@@ -56,6 +56,7 @@ namespace image_quality_0721
                 CvInvoke.Imwrite(config.datapath + "\\normal.bmp", imageshow);//將拼接後的亮度影像儲存，給別的function畫圖用
             }
             ngdtextBox.Clear();
+
         }
 
         private void tablebutton_Click(object sender, EventArgs e)//將TXT的資料拿出來使用並框出目前超出容許範圍之區域

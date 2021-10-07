@@ -2,6 +2,7 @@
 
 namespace image_quality_0721
 {
+    
     partial class ImageQualityForm
     {
         internal string imagepath = "";
@@ -117,7 +118,7 @@ namespace image_quality_0721
             // tablebutton
             // 
             this.tablebutton.Font = new System.Drawing.Font("標楷體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tablebutton.Location = new System.Drawing.Point(371, 104);
+            this.tablebutton.Location = new System.Drawing.Point(353, 96);
             this.tablebutton.Margin = new System.Windows.Forms.Padding(2);
             this.tablebutton.Name = "tablebutton";
             this.tablebutton.Size = new System.Drawing.Size(103, 41);
@@ -185,7 +186,7 @@ namespace image_quality_0721
             // 
             this.brightsetlabel.AutoSize = true;
             this.brightsetlabel.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.brightsetlabel.Location = new System.Drawing.Point(16, 75);
+            this.brightsetlabel.Location = new System.Drawing.Point(40, 72);
             this.brightsetlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.brightsetlabel.Name = "brightsetlabel";
             this.brightsetlabel.Size = new System.Drawing.Size(190, 24);
@@ -196,7 +197,7 @@ namespace image_quality_0721
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(4, 114);
+            this.label2.Location = new System.Drawing.Point(32, 116);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(202, 24);
@@ -210,7 +211,7 @@ namespace image_quality_0721
             this.comboBoxSelectImage.Items.AddRange(new object[] {
             "Golden Sample",
             "Normal Sample"});
-            this.comboBoxSelectImage.Location = new System.Drawing.Point(648, 97);
+            this.comboBoxSelectImage.Location = new System.Drawing.Point(633, 94);
             this.comboBoxSelectImage.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxSelectImage.Name = "comboBoxSelectImage";
             this.comboBoxSelectImage.Size = new System.Drawing.Size(92, 26);
@@ -265,7 +266,7 @@ namespace image_quality_0721
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(506, 98);
+            this.label5.Location = new System.Drawing.Point(548, 97);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(118, 24);
             this.label5.TabIndex = 21;
@@ -302,8 +303,6 @@ namespace image_quality_0721
 
         private System.Windows.Forms.Button loadbutton;
         private System.Windows.Forms.ComboBox gdcomboBox;
-        private Emgu.CV.UI.ImageBox imageBox1;
-        private System.Windows.Forms.TextBox ngdtextBox;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button tablebutton;
         private System.Windows.Forms.Label label3;
@@ -320,6 +319,8 @@ namespace image_quality_0721
         private System.Windows.Forms.ComboBox comboBoxAVGorSD;
         private System.Windows.Forms.GroupBox LoadImagegroupBox;
         private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox ngdtextBox;
+        public Emgu.CV.UI.ImageBox imageBox1;
     }
 }
 

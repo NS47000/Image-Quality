@@ -19,7 +19,7 @@ namespace image_quality_0721
 {
     public class LoadandSave
     {
-
+        public delegate void UpdateData(string word);
         public static void loadimage(out Image<Gray,byte>[,,] imageout,out Image<Gray,byte> showimage,setting config)
         {           
             imageout = new Image<Gray, byte>[config.cameranumber*config.anglenumber, 2, config.maxsample];
@@ -65,14 +65,21 @@ namespace image_quality_0721
                 }
                 if (System.IO.File.Exists(config.imagepath + (i + 1).ToString() + "\\Y1_X1.bmp") || System.IO.File.Exists(config.imagepath + (i + 1).ToString() + "\\Y"+ (1+config.cameranumber).ToString() + "_X1.bmp"))
                     piece += 1;//計算真實有檔案的piece數
+                ImageQualityForm.form1.ngdtextBox.Text = "正在載入:" + config.imagepath + i.ToString();
+                ImageQualityForm.form1.ngdtextBox.Refresh();
             }
             Image<Gray, byte>[,] imagecombine = new Image<Gray, byte>[2, piece];
             for (int i=0;i<piece;i++)
             {
+                ImageQualityForm.form1.ngdtextBox.Text = "正在拼第" + (i + 1).ToString() + "張圖";
+                ImageQualityForm.form1.ngdtextBox.Refresh();
                 imagecombine[0,i]= imageoperation.imagecombine(imageout, 0, i,config);//亮度影像合併後丟到imagecombine
                 imagecombine[1, i]= imageoperation.imagecombine(imageout, 1, i,config);//銳利度影像合併後丟到imagecombine
+                ImageQualityForm.form1.imageBox1.Image = imagecombine[0, i];
+                ImageQualityForm.form1.imageBox1.Refresh();
             }
-
+            ImageQualityForm.form1.ngdtextBox.Text = "資料儲存中";
+            ImageQualityForm.form1.ngdtextBox.Refresh();
             float[,,,] data = new float[config.cameranumber*config.cutnumber,config.anglenumber*config.cutnumber, 2, imagecombine.GetLength(1)];//將圖片資料分區取平均後存到矩陣裡
             float[,,] dataavg = new float[config.cameranumber * config.cutnumber, config.anglenumber * config.cutnumber, 2];//存放所有piece的平均值
             float[,,] datasd = new float[config.cameranumber * config.cutnumber, config.anglenumber * config.cutnumber, 2];//存放所有piece的標準差
@@ -83,7 +90,8 @@ namespace image_quality_0721
             imageoperation.writedata(datasd,"sd", analysistype, config.datapath);//儲存標準差資料到txt
             showimage = new Image<Gray, byte>(imagecombine[0, 0].Size);//show出一張拼接後的圖片拿來顯示
             imageoperation.ImageAvgShow(imagecombine,ref showimage);
-            
+            ImageQualityForm.form1.ngdtextBox.Text = "完成";
+            ImageQualityForm.form1.ngdtextBox.Refresh();
         }
         public static void loadtxt(float Threshold,ref string textshow, ref Image<Bgr, byte> imageshow,float brightoffset,float sharpoffset,setting config,int loadparametertype)
         {
