@@ -75,7 +75,8 @@ namespace image_quality_0721
                 loadparametertype = 1;
             else if(comboBoxAVGorSD.SelectedIndex == 1)//看dev差值
                 loadparametertype = 2;
-            LoadandSave.loadtxt(threshold, ref textshow,ref imageshow, brightoffset, sharpoffset,config, loadparametertype);
+            config.settingthreshold(threshold, brightoffset, sharpoffset, loadparametertype);
+            LoadandSave.loadtxt(ref textshow,ref imageshow,config);
             //利用輸入閥值分析TXT檔案中的資訊，並將不合理的區域在imageshow中圈出來
             imageBox1.Image = imageshow;
             ngdtextBox.Text = textshow;
@@ -93,18 +94,19 @@ namespace image_quality_0721
                 loadparametertype = 1;
             else if (comboBoxAVGorSD.SelectedIndex == 1)//看dev差值
                 loadparametertype = 2;
+            config.settingthreshold(threshold, brightoffset, sharpoffset, loadparametertype);
             if (comboBoxSelectImage.SelectedIndex == 0)
             {
                 Image<Gray, byte> imageshowsrc = new Image<Gray, Byte>(config.datapath+"\\golden.bmp");
                 Image<Bgr, byte> imageshow = imageshowsrc.Convert<Bgr, byte>();//轉彩色
-                LoadandSave.loadtxt(threshold, ref textshow, ref imageshow, brightoffset, sharpoffset, config, loadparametertype);
+                LoadandSave.loadtxt(ref textshow, ref imageshow,config);
                 imageBox1.Image = imageshow;
             }
             else if (comboBoxSelectImage.SelectedIndex == 1)
             {
                 Image<Gray, byte> imageshowsrc = new Image<Gray, Byte>(config.datapath + "\\normal.bmp");
                 Image<Bgr, byte> imageshow = imageshowsrc.Convert<Bgr, byte>();//轉彩色
-                LoadandSave.loadtxt(threshold, ref textshow, ref imageshow, brightoffset, sharpoffset, config, loadparametertype);
+                LoadandSave.loadtxt(ref textshow, ref imageshow,config);
                 imageBox1.Image = imageshow;
             }
             imageBox1.Refresh();

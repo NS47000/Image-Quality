@@ -93,7 +93,7 @@ namespace image_quality_0721
             ImageQualityForm.form1.ngdtextBox.Text = "完成";
             ImageQualityForm.form1.ngdtextBox.Refresh();
         }
-        public static void loadtxt(float Threshold,ref string textshow, ref Image<Bgr, byte> imageshow,float brightoffset,float sharpoffset,setting config,int loadparametertype)
+        public static void loadtxt(ref string textshow, ref Image<Bgr, byte> imageshow,setting config)
         {
             float[,,] GDavgresult = new float[config.cameranumber*config.cutnumber, config.anglenumber*config.cutnumber, 2];
             float[,,] GDsdresult = new float[config.cameranumber * config.cutnumber, config.anglenumber * config.cutnumber, 2];
@@ -111,7 +111,7 @@ namespace image_quality_0721
             {
                 MessageBox.Show("讀取txt檔失敗");
             }
-            if (loadparametertype == 1)
+            if (config.parametertype == 1)
             {
                 for (int i = 0; i < config.cameranumber * config.cutnumber; i++)
                 {
@@ -121,22 +121,22 @@ namespace image_quality_0721
                         {
                             if (type == 0)
                             {
-                                if (NGDavgresult[i, j, type] > GDavgresult[i, j, type] + Threshold * GDsdresult[i, j, type] + brightoffset || NGDavgresult[i, j, type] < GDavgresult[i, j, type] - Threshold * GDsdresult[i, j, type] - brightoffset)
+                                if (NGDavgresult[i, j, type] > GDavgresult[i, j, type] + config.threshold * GDsdresult[i, j, type] +config.brightoffset || NGDavgresult[i, j, type] < GDavgresult[i, j, type] - config.threshold * GDsdresult[i, j, type] - config.brightoffset)
                                 {
                                     Rectangle rectangle = new Rectangle(j * (imageshow.Width / (config.anglenumber * config.cutnumber)), i * (imageshow.Height / (config.cameranumber * config.cutnumber)), imageshow.Width / (config.anglenumber * config.cutnumber), imageshow.Height / (config.cameranumber * config.cutnumber));
                                     imageshow.Draw(rectangle, new Bgr(Color.Red), 15);
                                     typename = "bright error";
-                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (GDavgresult[i, j, type] - Threshold * GDsdresult[i, j, type] - brightoffset).ToString() + "~" + (GDavgresult[i, j, type] + Threshold * GDsdresult[i, j, type] + brightoffset).ToString() + Environment.NewLine + "error數值:" + NGDavgresult[i, j, type].ToString() + Environment.NewLine;
+                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (GDavgresult[i, j, type] - config.threshold * GDsdresult[i, j, type] - config.brightoffset).ToString() + "~" + (GDavgresult[i, j, type] + config.threshold * GDsdresult[i, j, type] + config.brightoffset).ToString() + Environment.NewLine + "error數值:" + NGDavgresult[i, j, type].ToString() + Environment.NewLine;
                                 }
                             }
                             if (type == 1)
                             {
-                                if (NGDavgresult[i, j, type] > GDavgresult[i, j, type] + Threshold * GDsdresult[i, j, type] + sharpoffset || NGDavgresult[i, j, type] < GDavgresult[i, j, type] - Threshold * GDsdresult[i, j, type] - sharpoffset)
+                                if (NGDavgresult[i, j, type] > GDavgresult[i, j, type] + config.threshold * GDsdresult[i, j, type] + config.sharpoffset || NGDavgresult[i, j, type] < GDavgresult[i, j, type] - config.threshold * GDsdresult[i, j, type] - config.sharpoffset)
                                 {
                                     Rectangle rectangle = new Rectangle((j * (imageshow.Width / (config.anglenumber * config.cutnumber))) + 15, (i * (imageshow.Height / (config.cameranumber * config.cutnumber))) + 15, (imageshow.Width / (config.anglenumber * config.cutnumber)) - 30, (imageshow.Height / (config.cameranumber * config.cutnumber)) - 30);
                                     imageshow.Draw(rectangle, new Bgr(Color.Blue), 15);
                                     typename = "sharp error";
-                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (GDavgresult[i, j, type] - Threshold * GDsdresult[i, j, type] - sharpoffset).ToString() + "~" + (GDavgresult[i, j, type] + Threshold * GDsdresult[i, j, type] + sharpoffset).ToString() + Environment.NewLine + "error數值:" + NGDavgresult[i, j, type].ToString() + Environment.NewLine;
+                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (GDavgresult[i, j, type] - config.threshold * GDsdresult[i, j, type] - config.sharpoffset).ToString() + "~" + (GDavgresult[i, j, type] + config.threshold * GDsdresult[i, j, type] + config.sharpoffset).ToString() + Environment.NewLine + "error數值:" + NGDavgresult[i, j, type].ToString() + Environment.NewLine;
                                 }
                             }
                         }
@@ -144,7 +144,7 @@ namespace image_quality_0721
                     }
                 }
             }
-            else if(loadparametertype == 2)
+            else if(config.parametertype == 2)
             {
                 for (int i = 0; i < config.cameranumber * config.cutnumber; i++)
                 {
@@ -154,22 +154,22 @@ namespace image_quality_0721
                         {
                             if (type == 0)
                             {
-                                if (NGDsdresult[i, j, type] >  Threshold * GDsdresult[i, j, type] + brightoffset)
+                                if (NGDsdresult[i, j, type] > config.threshold * GDsdresult[i, j, type] + config.brightoffset)
                                 {
                                     Rectangle rectangle = new Rectangle(j * (imageshow.Width / (config.anglenumber * config.cutnumber)), i * (imageshow.Height / (config.cameranumber * config.cutnumber)), imageshow.Width / (config.anglenumber * config.cutnumber), imageshow.Height / (config.cameranumber * config.cutnumber));
                                     imageshow.Draw(rectangle, new Bgr(Color.Red), 15);
                                     typename = "bright deviation error";
-                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (Threshold * GDsdresult[i, j, type] + brightoffset).ToString() + Environment.NewLine + "error數值:" + NGDsdresult[i, j, type].ToString() + Environment.NewLine;
+                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (config.threshold * GDsdresult[i, j, type] + config.brightoffset).ToString() + Environment.NewLine + "error數值:" + NGDsdresult[i, j, type].ToString() + Environment.NewLine;
                                 }
                             }
                             if (type == 1)
                             {
-                                if (NGDsdresult[i, j, type] > Threshold * GDsdresult[i, j, type] + sharpoffset )
+                                if (NGDsdresult[i, j, type] > config.threshold * GDsdresult[i, j, type] + config.sharpoffset )
                                 {
                                     Rectangle rectangle = new Rectangle((j * (imageshow.Width / (config.anglenumber * config.cutnumber))) + 15, (i * (imageshow.Height / (config.cameranumber * config.cutnumber))) + 15, (imageshow.Width / (config.anglenumber * config.cutnumber)) - 30, (imageshow.Height / (config.cameranumber * config.cutnumber)) - 30);
                                     imageshow.Draw(rectangle, new Bgr(Color.Blue), 15);
                                     typename = "sharp deviation error";
-                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (Threshold * GDsdresult[i, j, type] + sharpoffset).ToString() + Environment.NewLine + "error數值:" + NGDsdresult[i, j, type].ToString() + Environment.NewLine;
+                                    textshow += "從上數來:" + (i + 1).ToString() + "從左數來:" + (j + 1).ToString() + Environment.NewLine + "種類:" + typename + Environment.NewLine + "允許區間:" + (config.threshold * GDsdresult[i, j, type] + config.sharpoffset).ToString() + Environment.NewLine + "error數值:" + NGDsdresult[i, j, type].ToString() + Environment.NewLine;
                                 }
                             }
                         }
@@ -184,8 +184,8 @@ namespace image_quality_0721
                 for (int j = 0; j < config.anglenumber * config.cutnumber; j++)
                 {
                     
-                    float min = GDavgresult[i, j,0] - Threshold * GDsdresult[i, j,0];
-                    float max = GDavgresult[i, j,0] + Threshold * GDsdresult[i, j,0];
+                    float min = GDavgresult[i, j,0] - config.threshold * GDsdresult[i, j,0];
+                    float max = GDavgresult[i, j,0] + config.threshold * GDsdresult[i, j,0];
                     write += string.Format("{0:000.00}", min) + "~" + string.Format("{0:000.00}", max) + ",";
                 }
                 write += Environment.NewLine;
@@ -196,8 +196,8 @@ namespace image_quality_0721
                 for (int j = 0; j < config.anglenumber * config.cutnumber; j++)
                 {
 
-                    float min = GDavgresult[i, j, 1] - Threshold * GDsdresult[i, j, 1];
-                    float max = GDavgresult[i, j, 1] + Threshold * GDsdresult[i, j, 1];
+                    float min = GDavgresult[i, j, 1] - config.threshold * GDsdresult[i, j, 1];
+                    float max = GDavgresult[i, j, 1] + config.threshold * GDsdresult[i, j, 1];
                     write += string.Format("{0:00.000}", min)+"~"+string.Format("{0:00.000}", max) + ",";
                 }
                 write += Environment.NewLine;

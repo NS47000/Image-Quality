@@ -8,12 +8,17 @@ namespace image_quality_0721
 {
     public class setting
     {
-        public int cameranumber = 4;
-        public int anglenumber = 8;
-        public int cutnumber = 4;
-        public int maxsample = 50;
-        public string imagepath = "";
-        public string datapath = "";
+        internal int cameranumber = 4;
+        internal int anglenumber = 8;
+        internal int cutnumber = 4;
+        internal int maxsample = 50;
+        internal string imagepath = "";
+        internal string datapath = "";
+        internal float threshold;
+        internal float brightoffset;
+        internal float sharpoffset;
+        internal int parametertype;
+ 
 
         public setting(int camamount,int angleamount,int cutamount,int maxsamplevalue,string imagepathset, string datapathset)
         {
@@ -23,6 +28,13 @@ namespace image_quality_0721
             maxsample = maxsamplevalue;
             imagepath = imagepathset;
             datapath = datapathset;
+        }
+        public void settingthreshold(float thresholdin, float brightoffsetin, float sharpoffsetin,int parametertypein)
+        {
+            this.threshold = thresholdin;
+            this.brightoffset = brightoffsetin;
+            this.sharpoffset = sharpoffsetin;
+            this.parametertype = parametertypein;
         }
         public void change(int camamount, int angleamount, int cutamount, int maxsamplevalue, string imagepathset, string datapathset)
         {

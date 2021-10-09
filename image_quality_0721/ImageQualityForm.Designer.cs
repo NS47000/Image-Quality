@@ -86,6 +86,7 @@ namespace image_quality_0721
             // 
             // imageBox1
             // 
+            this.imageBox1.Enabled = false;
             this.imageBox1.Location = new System.Drawing.Point(23, 127);
             this.imageBox1.Margin = new System.Windows.Forms.Padding(2);
             this.imageBox1.Name = "imageBox1";
@@ -171,7 +172,7 @@ namespace image_quality_0721
             this.brighttextBox.Name = "brighttextBox";
             this.brighttextBox.Size = new System.Drawing.Size(76, 45);
             this.brighttextBox.TabIndex = 12;
-            this.brighttextBox.Text = "0";
+            this.brighttextBox.Text = "3";
             // 
             // sharptextBox
             // 
@@ -180,7 +181,7 @@ namespace image_quality_0721
             this.sharptextBox.Name = "sharptextBox";
             this.sharptextBox.Size = new System.Drawing.Size(76, 45);
             this.sharptextBox.TabIndex = 13;
-            this.sharptextBox.Text = "0";
+            this.sharptextBox.Text = "1";
             // 
             // brightsetlabel
             // 
